@@ -1,8 +1,8 @@
 
 function slugify(title) {
     title = title.toLowerCase();
-    title = title.split(" ");
-    return title.join('-');
+    const lasttitle = title.split(" ");
+    return lasttitle.join('-');
 
 }
 
